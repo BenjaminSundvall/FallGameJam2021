@@ -14,10 +14,13 @@ public class controllerTest : MonoBehaviour
     void Update()
     {
         Debug.Log("====================");
-        Debug.Log("MoveX: " + Input.GetAxis("MoveX"));
-        Debug.Log("MoveY: " + Input.GetAxis("MoveY"));
-        Debug.Log("AimX: " + Input.GetAxis("AimX"));
-        Debug.Log("AimY: " + Input.GetAxis("AimY"));
+        Debug.Log("MoveX: " + Input.GetAxis("MoveX1"));
+        Debug.Log("MoveY: " + Input.GetAxis("MoveY1"));
+        Debug.Log("AimX: " + Input.GetAxis("AimX1"));
+        Debug.Log("AimY: " + Input.GetAxis("AimY1"));
+        Debug.Log("Fire: " + Input.GetButton("Fire1"));
+        Debug.Log("Special: " + Input.GetButton("Special1"));
+        Debug.Log("Jump: " + Input.GetButton("Jump1"));
 
     }
 }
