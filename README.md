@@ -7,4 +7,9 @@ dick
 dick
 dunder test
 Lieber ein Schnitzel auf dem Teller als beim Fritzl in dem Keller
+<<<<<<< HEAD
+>>>>>>> main
+=======
+
+hej
 >>>>>>> main
