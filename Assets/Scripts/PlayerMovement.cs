@@ -36,14 +36,14 @@ public class PlayerMovement : MonoBehaviour
                 soundDelay -=1;
             }
             transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
-
-
-            if(Input.GetButtonDown("Jump1") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
-            {
-                _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
-                Sounds_In_GameFX[0].Play();
-            }
         }
+        
+        if(Input.GetButtonDown("Jump1") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+        {
+            _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
+            Sounds_In_GameFX[0].Play();
+        }
+        
     }
 
     //Kollar om man behöver rotera gubben
