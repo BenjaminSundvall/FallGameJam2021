@@ -9,14 +9,14 @@ public class Bomb : MonoBehaviour
     public GameObject gameBullet; 
     public SpriteRenderer gameBulletRenderer;
     private int time = 0;
+    public Vector2 direction;
     //private float angle = 30f;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(transform.right);
-        rb.velocity = new Vector3(5 * transform.right[0], 3, 0);
+        
     }
 
     // Update is called once per frame
@@ -25,6 +25,10 @@ public class Bomb : MonoBehaviour
         
     }
 
+    public void Set_speed(){
+        Debug.Log(transform.right);
+        rb.velocity = new Vector3(direction.normalized[0], direction.normalized[1], 0)*speed;
+    }
     void FixedUpdate()
     {
         time += 1;

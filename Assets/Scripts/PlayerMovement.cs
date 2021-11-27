@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float MovementSpeed = 3;
     public float JumpeForce = 10;
     private Rigidbody2D _rigidbody;
+    private float movement;
     public AudioSource[] Sounds_In_GameFX;
     private int soundDelay = 0;
 
@@ -23,8 +25,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //var movement = Input.GetAxis("Horizontal");
-        var movement = Input.GetAxis("MoveX1");
-        MabyRotate(movement);
         
         if(movement > 0.1 || movement < -0.1)
         {
@@ -62,6 +62,16 @@ public class PlayerMovement : MonoBehaviour
             transform.Rotate(0f, -180f, 0);
         }
 
+    }
+
+    public void Jump(InputAction.CallbackContext context){
+        if (Mathf.Abs(_rigidbody.velocity.y) < 0.001f){
+            _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
+        }
+    }
+    public void Move(InputAction.CallbackContext context) {
+        movement = context.ReadValue<Vector2>().x;
+        MabyRotate(movement);
     }
 
 }
