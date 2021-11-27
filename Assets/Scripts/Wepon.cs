@@ -7,6 +7,9 @@ public class Wepon : MonoBehaviour
     
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public AudioSource[] Sounds_In_GameFX;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,7 @@ public class Wepon : MonoBehaviour
 
     void Shoot()
     {
-       Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Sounds_In_GameFX[0].Play();
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

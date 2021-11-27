@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public float MovementSpeed = 3;
     public float JumpeForce = 10;
     private Rigidbody2D _rigidbody;
+    public AudioSource[] Sounds_In_GameFX;
+    private int soundDelay = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -24,14 +26,24 @@ public class PlayerMovement : MonoBehaviour
         var movement = Input.GetAxis("MoveX1");
         MabyRotate(movement);
         
-        transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
-
-
-        if(Input.GetButtonDown("Jump1") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+        if(movement > 0.1 || movement < -0.1)
         {
-            _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
-        }
+            if(soundDelay <= 0)
+            {
+                Sounds_In_GameFX[1].Play();
+                soundDelay = 60;
+            }else{
+                soundDelay -=1;
+            }
+            transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
 
+
+            if(Input.GetButtonDown("Jump1") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+            {
+                _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
+                Sounds_In_GameFX[0].Play();
+            }
+        }
     }
 
     //Kollar om man behöver rotera gubben
