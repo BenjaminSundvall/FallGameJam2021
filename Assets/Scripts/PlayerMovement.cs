@@ -14,11 +14,27 @@ public class PlayerMovement : MonoBehaviour
     private float movement;
     public AudioSource[] Sounds_In_GameFX;
     private int soundDelay = 0;
+    //public GameObject character;
+    private List<string> animation_bools = new List<string>();
+    //print("hej");
 
+    public Animator anim;
+    
+    /*
+    animation_bools.Add("is_running");
+    animation_bools.Add("is_jumping");
+    animation_bools.Add("is_throw");
+    animation_bools.Add("is_dying");
+    animation_bools.Add("is_hurt");
+    */
+   
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        anim.SetBool("is_default", false);
+        anim.SetBool("is_running", true);
     }
 
     // Update is called once per frame
@@ -28,6 +44,17 @@ public class PlayerMovement : MonoBehaviour
         
         if(movement > 0.1 || movement < -0.1)
         {
+            /*
+            foreach (string animation_bools in animation_bools)
+            {
+                anim.SetBool(animation_bools, false);
+            }
+            */
+            print("oj");
+            //print(anim.test);
+            //anim.SetFloat("test", movement);
+            anim.SetBool("is_default", false);
+            anim.SetBool("is_running", true);
             if(soundDelay <= 0)
             {
                 Sounds_In_GameFX[1].Play();
@@ -36,6 +63,11 @@ public class PlayerMovement : MonoBehaviour
                 soundDelay -=1;
             }
             transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
+        }
+        else
+        {
+            anim.SetBool("is_default", true);
+            anim.SetBool("is_running", false);
         }
         
     }
