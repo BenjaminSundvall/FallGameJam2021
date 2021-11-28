@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 932271493}
   - component: {fileID: 932271492}
   - component: {fileID: 932271494}
+  - component: {fileID: 932271495}
   m_Layer: 0
   m_Name: Platforms
   m_TagString: Untagged
@@ -9631,6 +9632,20 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &932271495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932271490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e37c328f5fd1344be8f60c20e2a49d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructableTilemap: {fileID: 0}
+  cactus: {fileID: 0}
 --- !u!1 &1238063006
 GameObject:
   m_ObjectHideFlags: 0
