@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         anim.SetBool("is_default", false);
         anim.SetBool("is_running", true);
+        anim.SetBool("is_jumping", false);
     }
 
     // Update is called once per frame
@@ -66,6 +67,10 @@ public class PlayerMovement : MonoBehaviour
                 soundDelay -=1;
             }
             transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
+            if (Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+            {
+                anim.SetBool("is_jumping", false);
+            }
         }
         else
         {
@@ -95,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context){
         if (Mathf.Abs(_rigidbody.velocity.y) < 0.001f){
+            anim.SetBool("is_jumping", true);
             _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
             Sounds_In_GameFX[0].Play();
         }
