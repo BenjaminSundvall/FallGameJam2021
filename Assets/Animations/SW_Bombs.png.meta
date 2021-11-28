@@ -1,0 +1,1908 @@
+fileFormatVersion: 2
+guid: 620a2b8c9be8bed4ca2b26812a076151
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3753735536735235758
+    second: SW_Bombs_0
+  - first:
+      213: -8208751962016178918
+    second: SW_Bombs_1
+  - first:
+      213: 4754302848647749538
+    second: SW_Bombs_2
+  - first:
+      213: 7268408498606419312
+    second: SW_Bombs_3
+  - first:
+      213: -8114849600892781489
+    second: SW_Bombs_4
+  - first:
+      213: -4438167768716125154
+    second: SW_Bombs_5
+  - first:
+      213: -1994830099022366313
+    second: SW_Bombs_6
+  - first:
+      213: -953547109144927203
+    second: SW_Bombs_7
+  - first:
+      213: -5702002199022595836
+    second: SW_Bombs_8
+  - first:
+      213: 2310611673160683811
+    second: SW_Bombs_9
+  - first:
+      213: -7658809003615386955
+    second: SW_Bombs_10
+  - first:
+      213: 7220424630314045585
+    second: SW_Bombs_11
+  - first:
+      213: -8301614986649053192
+    second: SW_Bombs_12
+  - first:
+      213: -511228598430893986
+    second: SW_Bombs_13
+  - first:
+      213: 5608331793241566376
+    second: SW_Bombs_14
+  - first:
+      213: -5505500297243961559
+    second: SW_Bombs_15
+  - first:
+      213: -4928224180280816239
+    second: SW_Bombs_16
+  - first:
+      213: -925503340528981812
+    second: SW_Bombs_17
+  - first:
+      213: -8954990830145112764
+    second: SW_Bombs_18
+  - first:
+      213: -2863868323199783468
+    second: SW_Bombs_19
+  - first:
+      213: -6772253744900003105
+    second: SW_Bombs_20
+  - first:
+      213: -7613562978191659391
+    second: SW_Bombs_21
+  - first:
+      213: 7738472564256783207
+    second: SW_Bombs_22
+  - first:
+      213: 8185087310955376455
+    second: SW_Bombs_23
+  - first:
+      213: -6643822934786729124
+    second: SW_Bombs_24
+  - first:
+      213: 2941602859761403800
+    second: SW_Bombs_25
+  - first:
+      213: 7679508235357544450
+    second: SW_Bombs_26
+  - first:
+      213: -8285947640335014945
+    second: SW_Bombs_27
+  - first:
+      213: 8497749433060552030
+    second: SW_Bombs_28
+  - first:
+      213: 3583958482986437491
+    second: SW_Bombs_29
+  - first:
+      213: 7001989543603194617
+    second: SW_Bombs_30
+  - first:
+      213: 3596826589054106713
+    second: SW_Bombs_31
+  - first:
+      213: -3140886277882334645
+    second: SW_Bombs_32
+  - first:
+      213: -4762931939460483650
+    second: SW_Bombs_33
+  - first:
+      213: -1370476385324287497
+    second: SW_Bombs_34
+  - first:
+      213: -4928945483006320463
+    second: SW_Bombs_35
+  - first:
+      213: 429270270395789638
+    second: SW_Bombs_36
+  - first:
+      213: -2939113061579248489
+    second: SW_Bombs_37
+  - first:
+      213: 6860941754384271978
+    second: SW_Bombs_38
+  - first:
+      213: -5706366541012969451
+    second: SW_Bombs_39
+  - first:
+      213: 7375133523110725066
+    second: SW_Bombs_40
+  - first:
+      213: 240325463877352676
+    second: SW_Bombs_41
+  - first:
+      213: -4371547963266382356
+    second: SW_Bombs_42
+  - first:
+      213: -1589972893324458615
+    second: SW_Bombs_43
+  - first:
+      213: 2392479395531537572
+    second: SW_Bombs_44
+  - first:
+      213: 5499044516923500457
+    second: SW_Bombs_45
+  - first:
+      213: 832041845076808558
+    second: SW_Bombs_46
+  - first:
+      213: -5749421020564785810
+    second: SW_Bombs_47
+  - first:
+      213: 5601990847546113066
+    second: SW_Bombs_48
+  - first:
+      213: 8603043460231836149
+    second: SW_Bombs_49
+  - first:
+      213: 1621568805004113320
+    second: SW_Bombs_50
+  - first:
+      213: -4674406073748734950
+    second: SW_Bombs_51
+  - first:
+      213: -7017958452809224414
+    second: SW_Bombs_52
+  - first:
+      213: 4712782225604429024
+    second: SW_Bombs_53
+  - first:
+      213: -6476448540090546959
+    second: SW_Bombs_54
+  - first:
+      213: -2008591502429110772
+    second: SW_Bombs_55
+  - first:
+      213: 900006178635084528
+    second: SW_Bombs_56
+  - first:
+      213: 8485007015615050880
+    second: SW_Bombs_57
+  - first:
+      213: 6245050487705167726
+    second: SW_Bombs_58
+  - first:
+      213: 6702771985316100354
+    second: SW_Bombs_59
+  - first:
+      213: 1387154035457702541
+    second: SW_Bombs_60
+  - first:
+      213: 3306293541570877297
+    second: SW_Bombs_61
+  - first:
+      213: 7310427912026386658
+    second: SW_Bombs_62
+  - first:
+      213: -4054893656841532520
+    second: SW_Bombs_63
+  - first:
+      213: 8871923026335885527
+    second: SW_Bombs_64
+  - first:
+      213: -2678828493946823438
+    second: SW_Bombs_65
+  - first:
+      213: 4050397221925766788
+    second: SW_Bombs_66
+  - first:
+      213: -1177272930290583408
+    second: SW_Bombs_67
+  - first:
+      213: -5574617681343987692
+    second: SW_Bombs_68
+  - first:
+      213: -99821055973284706
+    second: SW_Bombs_69
+  - first:
+      213: -1401064493317065106
+    second: SW_Bombs_70
+  - first:
+      213: 8665727670187025397
+    second: SW_Bombs_71
+  - first:
+      213: -8386345100992991815
+    second: SW_Bombs_72
+  - first:
+      213: -4572198777196105798
+    second: SW_Bombs_73
+  - first:
+      213: -7995637432459231194
+    second: SW_Bombs_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SW_Bombs_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1323
+        width: 280
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae2ddf1592f71430800000000000000
+      internalID: 3753735536735235758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1313
+        width: 293
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d1cb61597a41e80800000000000000
+      internalID: -8208751962016178918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1317
+        width: 291
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afd640604daaf140800000000000000
+      internalID: 4754302848647749538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_3
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1313
+        width: 297
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dadd115039ed460800000000000000
+      internalID: 7268408498606419312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_4
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1301
+        width: 310
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cb0154843426f80800000000000000
+      internalID: -8114849600892781489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_5
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1302
+        width: 307
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c5614cde57862c0800000000000000
+      internalID: -4438167768716125154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_6
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 1195
+        width: 140
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799b3801890f054e0800000000000000
+      internalID: -1994830099022366313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1230
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14e0d2d4f154c2f0800000000000000
+      internalID: -953547109144927203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 957
+        width: 282
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40113c2e53b6ed0b0800000000000000
+      internalID: -5702002199022595836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_9
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1233
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3211d981311f01020800000000000000
+      internalID: 2310611673160683811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_10
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 959
+        width: 270
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b201f01ac176b590800000000000000
+      internalID: -7658809003615386955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_11
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1246
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190995122f9143460800000000000000
+      internalID: 7220424630314045585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_12
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 964
+        width: 298
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f759ba472dbacc80800000000000000
+      internalID: -8301614986649053192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_13
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 964
+        width: 286
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58718f5c40c7e8f0800000000000000
+      internalID: -511228598430893986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 959
+        width: 254
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac61be3d0cc4dd40800000000000000
+      internalID: 5608331793241566376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_15
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 960
+        width: 256
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92757f726a88893b0800000000000000
+      internalID: -5505500297243961559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_16
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1040
+        width: 197
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d0fd8083e6b9bb0800000000000000
+      internalID: -4928224180280816239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_17
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 1074
+        width: 201
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc825558d93f723f0800000000000000
+      internalID: -925503340528981812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_18
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 1072
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f15a194b79b380800000000000000
+      internalID: -8954990830145112764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_19
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1010
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddee28feee7148d0800000000000000
+      internalID: -2863868323199783468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_20
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 762
+        width: 224
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda2d66991f1402a0800000000000000
+      internalID: -6772253744900003105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 691
+        width: 223
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e22d94fc0375690800000000000000
+      internalID: -7613562978191659391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_22
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 842
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bb1a80cc3946b60800000000000000
+      internalID: 7738472564256783207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 691
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f6d09fa85479170800000000000000
+      internalID: 8185087310955376455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_24
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 693
+        width: 210
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b9175cd366cc3a0800000000000000
+      internalID: -6643822934786729124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_25
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 691
+        width: 222
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8970a56373ca2d820800000000000000
+      internalID: 2941602859761403800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_26
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 842
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2006c226d08139a60800000000000000
+      internalID: 7679508235357544450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_27
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 691
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3685e9586620d80800000000000000
+      internalID: -8285947640335014945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_28
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 691
+        width: 259
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5de9db16121ee570800000000000000
+      internalID: 8497749433060552030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_29
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 870
+        width: 155
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b872c6047ccb130800000000000000
+      internalID: 3583958482986437491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_30
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 833
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fac77b44601c2160800000000000000
+      internalID: 7001989543603194617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_31
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 750
+        width: 186
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cff37d9be7ae130800000000000000
+      internalID: 3596826589054106713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_32
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 328
+        width: 374
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42bce642945964d0800000000000000
+      internalID: -3140886277882334645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_33
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 328
+        width: 373
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5781bd2aaa6edb0800000000000000
+      internalID: -4762931939460483650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_34
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 511
+        width: 140
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f93fa71df61bfce0800000000000000
+      internalID: -1370476385324287497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_35
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 389
+        width: 201
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b06428a23ed89bb0800000000000000
+      internalID: -4928945483006320463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_36
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 356
+        width: 197
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641b39b590315f500800000000000000
+      internalID: 429270270395789638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_37
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 352
+        width: 92
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cabd91e3c2637d0800000000000000
+      internalID: -2939113061579248489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_38
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 387
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a48bebc26f63f50800000000000000
+      internalID: 6860941754384271978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_39
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 75
+        width: 229
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5185fb45dd9eec0b0800000000000000
+      internalID: -5706366541012969451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_40
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 75
+        width: 268
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac507183ddcb95660800000000000000
+      internalID: 7375133523110725066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_41
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 325
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecf3e07cbec55300800000000000000
+      internalID: 240325463877352676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_42
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 364
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5cce2f9442553c0800000000000000
+      internalID: -4371547963266382356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_43
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 79
+        width: 226
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98545ead3184fe9e0800000000000000
+      internalID: -1589972893324458615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 126
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac3917955bc33120800000000000000
+      internalID: 2392479395531537572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_45
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 268
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7e84b5ad7805c40800000000000000
+      internalID: 5499044516923500457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_46
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 66
+        width: 248
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63501656a10c8b00800000000000000
+      internalID: 832041845076808558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_47
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 203
+        width: 125
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6572152b04f530b0800000000000000
+      internalID: -5749421020564785810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_48
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 277
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cb9f6cef44ebd40800000000000000
+      internalID: 5601990847546113066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_49
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 66
+        width: 250
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1bd5a3276246770800000000000000
+      internalID: 8603043460231836149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_50
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 210
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5ff199c38f08610800000000000000
+      internalID: 1621568805004113320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_51
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 265
+        width: 107
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c3746217c212fb0800000000000000
+      internalID: -4674406073748734950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_52
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 185
+        width: 153
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f2bdb48f33b9e90800000000000000
+      internalID: -7017958452809224414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_53
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 232
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e44decf67a276140800000000000000
+      internalID: 4712782225604429024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_54
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 179
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f44ec1dd580f16a0800000000000000
+      internalID: -6476448540090546959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_55
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 187
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e38d6abac0024e0800000000000000
+      internalID: -2008591502429110772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_56
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 188
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2733dd9d67d7c00800000000000000
+      internalID: 900006178635084528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_57
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 197
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084be6adcecc0c570800000000000000
+      internalID: 8485007015615050880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_58
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 204
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67eb04b450eaa650800000000000000
+      internalID: 6245050487705167726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 116
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209b43b9b97050d50800000000000000
+      internalID: 6702771985316100354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_60
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 75
+        width: 99
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ab43cee39204310800000000000000
+      internalID: 1387154035457702541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 66
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1771084657052ed20800000000000000
+      internalID: 3306293541570877297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_62
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 147
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0fe64247bd37560800000000000000
+      internalID: 7310427912026386658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_63
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 125
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bc9fde3bf1ab7c0800000000000000
+      internalID: -4054893656841532520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_64
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 83
+        width: 98
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8eb5bacf66f1b70800000000000000
+      internalID: 8871923026335885527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_65
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 75
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcda148da3e2dad0800000000000000
+      internalID: -2678828493946823438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_66
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 157
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4864d1c30d6e53830800000000000000
+      internalID: 4050397221925766788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_67
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 147
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098b852e18c79afe0800000000000000
+      internalID: -1177272930290583408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_68
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 67
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41041e021caf2a2b0800000000000000
+      internalID: -5574617681343987692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_69
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 73
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94ab99474d5d9ef0800000000000000
+      internalID: -99821055973284706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_70
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 76
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e667c68344b6e8ce0800000000000000
+      internalID: -1401064493317065106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_71
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 98
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f365cd2769d24870800000000000000
+      internalID: 8665727670187025397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_72
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 106
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bda97b3097bd9b80800000000000000
+      internalID: -8386345100992991815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_73
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 75
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf20cacf694c80c0800000000000000
+      internalID: -4572198777196105798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SW_Bombs_74
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 66
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620837d2e1ac90190800000000000000
+      internalID: -7995637432459231194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
