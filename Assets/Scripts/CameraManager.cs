@@ -12,6 +12,8 @@ public class CameraManager : MonoBehaviour
     private float aspectRatio = 16/9;
     [SerializeField]
     private float padding;
+    [SerializeField]
+    private float minCameraSize;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,10 +50,11 @@ public class CameraManager : MonoBehaviour
             float dy = maxY - minY;
 
             if (dx < aspectRatio * dy){
-                camera.orthographicSize = dy + padding;     // Hög
+                camera.orthographicSize = Math.Max(minCameraSize, dy + padding);     // Hög
             } else {
-                camera.orthographicSize = (1f / aspectRatio) * dx + padding; // Bred
+                camera.orthographicSize = Math.Max(minCameraSize, (1f / aspectRatio) * dx + padding); // Bred
             }
+            
         }
     }
 
