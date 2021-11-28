@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     public int health = 5;
 
-    public float MovementSpeed = 3;
+    public float MovementSpeed = 7;
     public float JumpeForce = 10;
     public Rigidbody2D _rigidbody;
     private float movement;
