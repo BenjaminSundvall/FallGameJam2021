@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573727084527212251}
   - component: {fileID: 1573727084527211812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sound_Trow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573727084755952269}
   - component: {fileID: 1573727084755952270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sound_Running
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573727085145856246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573727085697635885}
   - component: {fileID: 1573727085697635886}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sound_Jump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,8 +426,7 @@ GameObject:
   - component: {fileID: 1573727086405941451}
   - component: {fileID: 1573727086405941460}
   - component: {fileID: 1573727086405941454}
-  - component: {fileID: -7578301732706079833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerBody
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -585,6 +584,7 @@ MonoBehaviour:
   firePoint: {fileID: 1573727085145856246}
   bulletPrefab: {fileID: 7850783943425301263, guid: f12c93a7198270149863050a968db002,
     type: 3}
+  shootDelay: 100
 --- !u!114 &1573727086405941454
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -32,9 +32,13 @@ public class Bomb : MonoBehaviour
     void FixedUpdate()
     {
         time += 1;
-        Debug.Log(time);
-        Debug.Log("fdf");
+        //Debug.Log(time);
+        //Debug.Log("fdf");
         
+        if(time == 70)
+        {
+            print("åååååååååååååååååå");
+        }
         if(time >= 130)
         {
             print("ÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ");
