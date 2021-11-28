@@ -9,6 +9,7 @@ public class Weapon : MonoBehaviour
     public GameObject bulletPrefab;
     public int shootDelay = 25;
     private int delay = 0;
+    public AudioSource[] Sounds_In_GameFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +44,8 @@ public class Weapon : MonoBehaviour
             bomb.GetComponent<Bomb>().direction = aim;
             bomb.GetComponent<Bomb>().Set_speed();
             delay = 0;
+            Sounds_In_GameFX[0].Play();
+
         } 
     }
 }

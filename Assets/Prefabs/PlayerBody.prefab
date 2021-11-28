@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1573727084527212251}
   - component: {fileID: 1573727084527211812}
   m_Layer: 7
-  m_Name: Sound_Trow
+  m_Name: Sound_Throw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,6 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f427b4b58ff0c3c4ca668cea6fc3571b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MovementSpeed: 3
   JumpeForce: 10
   _rigidbody: {fileID: 1573727086405941450}
   Sounds_In_GameFX:
@@ -602,6 +603,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7850783943425301263, guid: f12c93a7198270149863050a968db002,
     type: 3}
   shootDelay: 100
+  Sounds_In_GameFX:
+  - {fileID: 1573727084527211812}
 --- !u!114 &1573727086405941454
 MonoBehaviour:
   m_ObjectHideFlags: 0

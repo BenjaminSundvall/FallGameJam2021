@@ -17,5 +17,13 @@ public class Sounds_In_Game : MonoBehaviour
         {
             Sounds_In_GameFX[1].Play();
         }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Sounds_In_GameFX[0].Play();
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Sounds_In_GameFX[0].Play();
+        }
     }
 }
