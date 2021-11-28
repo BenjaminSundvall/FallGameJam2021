@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class CameraManager : MonoBehaviour
 {
-    GameObject[] gameObjects;
+    GameObject[] gameObjects = {};
     public Camera camera;
 
     private float aspectRatio = 16/9;
@@ -23,8 +23,6 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
         if(gameObjects.Length == 0){
             transform.position = new Vector3(0,0,-10);
         } else {
