@@ -12,7 +12,7 @@ public class DestructableTiles : MonoBehaviour {
     }
     private void OnCollisionEnter2D(Collision2D collision) {
      
-        if(collision.gameObject.CompareTag("Penile") || collision.gameObject.CompareTag("Bullet")) {
+        if(collision.gameObject.CompareTag("Bullet")) {
            
             Vector3 hitposition = Vector3.zero;
             foreach(ContactPoint2D hit in collision.contacts){
@@ -26,7 +26,7 @@ public class DestructableTiles : MonoBehaviour {
     }
 private void OnCollisionStay2D(Collision2D collision) {
      
-        if(collision.gameObject.CompareTag("Penile") || collision.gameObject.CompareTag("Bullet")) {
+        if(collision.gameObject.CompareTag("Bullet")) {
            
             Vector3 hitposition = Vector3.zero;
             foreach(ContactPoint2D hit in collision.contacts){
@@ -40,7 +40,7 @@ private void OnCollisionStay2D(Collision2D collision) {
 }
         private void OnCollisionExit2D(Collision2D collision) {
      
-        if(collision.gameObject.CompareTag("Penile") || collision.gameObject.CompareTag("Bullet")) {
+        if(collision.gameObject.CompareTag("Bullet")) {
            
             Vector3 hitposition = Vector3.zero;
             foreach(ContactPoint2D hit in collision.contacts){

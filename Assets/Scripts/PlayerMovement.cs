@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        //_rigidbody.position = new Vector3(0f, 5f, 0);
         anim = GetComponent<Animator>();
         anim.SetBool("is_default", false);
         anim.SetBool("is_running", true);
@@ -52,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool(animation_bools, false);
             }
             */
-            print("oj");
+            //print("oj");
             //print(anim.test);
             //anim.SetFloat("test", movement);
             anim.SetBool("is_default", false);

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 561802252938031143}
   m_Layer: 6
   m_Name: Bomb
-  m_TagString: Bullet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847,
+  m_Sprite: {fileID: 3753735536735235758, guid: 620a2b8c9be8bed4ca2b26812a076151,
     type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
