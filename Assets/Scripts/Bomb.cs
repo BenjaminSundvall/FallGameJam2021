@@ -16,7 +16,8 @@ public class Bomb : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Debug.Log(transform.right);
+        rb.velocity = new Vector3(5 * transform.right[0], 3, 0);
     }
 
     // Update is called once per frame

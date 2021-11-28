@@ -13,7 +13,15 @@ public class controllerTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //print("Move" + Input.GetButtonDown("Horizontal"));
+      /*  Debug.Log("====================");
+        Debug.Log("MoveX: " + Input.GetAxis("MoveX1"));
+        Debug.Log("MoveY: " + Input.GetAxis("MoveY1"));
+        Debug.Log("AimX: " + Input.GetAxis("AimX1"));
+        Debug.Log("AimY: " + Input.GetAxis("AimY1"));
+        Debug.Log("Fire: " + Input.GetButton("Fire1"));
+        Debug.Log("Special: " + Input.GetButton("Special1"));
+        Debug.Log("Jump: " + Input.GetButton("Jump1"));
+    */
     }
     
 }
