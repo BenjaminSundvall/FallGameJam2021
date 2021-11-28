@@ -137,3 +137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rb: {fileID: 1302616319917787832}
+  gameBullet: {fileID: 7850783943425301263}
+  gameBulletRenderer: {fileID: 2436147275642889439}
+  direction: {x: 0, y: 0}

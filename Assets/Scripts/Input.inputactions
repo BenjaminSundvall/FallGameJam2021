@@ -159,6 +159,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8d3af264-70a3-420f-8d4c-3369709c0bf3",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "228d320b-93c1-4253-94e7-43a20c505993",
                     "path": "<Gamepad>/leftShoulder",
                     "interactions": "",
