@@ -14,12 +14,11 @@ public class PlayerMovement : MonoBehaviour
     private float movement;
     public AudioSource[] Sounds_In_GameFX;
     private int soundDelay = 0;
-    //public GameObject character;
+    public GameObject character;
     private List<string> animation_bools = new List<string>();
     //print("hej");
-
     public Animator anim;
-    
+    GameObject[] playerNumbers;
     /*
     animation_bools.Add("is_running");
     animation_bools.Add("is_jumping");
@@ -33,15 +32,23 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        anim.SetBool("is_default", false);
-        anim.SetBool("is_running", true);
+        playerNumbers = GameObject.FindGameObjectsWithTag("Player");
+        for(int i =0; i < playerNumbers.Length; i++)
+        {
+            print(playerNumbers[i]);
+            print("hej");
+        }
+        print("Öööööööö");
+
+        //anim.SetBool("is_default", false);
+        //anim.SetBool("is_running", true);
     }
 
     // Update is called once per frame
     void Update()
     {
         //var movement = Input.GetAxis("Horizontal");
-        
+        anim.SetBool("is_throwing", false);
         if(movement > 0.1 || movement < -0.1)
         {
             /*
@@ -50,12 +57,31 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool(animation_bools, false);
             }
             */
-            print("oj");
+            //print("oj");
             //print(anim.test);
             //anim.SetFloat("test", movement);
+
+            if (character = playerNumbers[0])
+            {
+                anim.SetBool("is_player", false);
+            }
+            else
+            {
+                anim.SetBool("is_player", true);
+            }
+
             anim.SetBool("is_default", false);
             anim.SetBool("is_running", true);
-            if(soundDelay <= 0)
+            if (anim.GetBool("is_jumping") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+            {
+                anim.SetBool("is_jumping", false);
+            }
+            else
+            {
+                anim.SetBool("is_jumping", true);
+            }
+
+            if (soundDelay <= 0)
             {
                 Sounds_In_GameFX[1].Play();
                 soundDelay = 60;
@@ -66,6 +92,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            if (anim.GetBool("is_jumping") && Mathf.Abs(_rigidbody.velocity.y) > 0.001f)
+            {
+                anim.SetBool("is_jumping", false);
+            }
             anim.SetBool("is_default", true);
             anim.SetBool("is_running", false);
         }
@@ -92,6 +122,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context){
         if (Mathf.Abs(_rigidbody.velocity.y) < 0.001f){
+            anim.SetBool("is_default", false);
+            anim.SetBool("is_running", false);
+            anim.SetBool("is_jumping", true);
             _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
             Sounds_In_GameFX[0].Play();
         }
