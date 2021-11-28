@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float MovementSpeed = 3;
     public float JumpeForce = 10;
-    private Rigidbody2D _rigidbody;
+    public Rigidbody2D _rigidbody;
     private float movement;
     public AudioSource[] Sounds_In_GameFX;
     private int soundDelay = 0;
