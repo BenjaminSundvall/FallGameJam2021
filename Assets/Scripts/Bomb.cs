@@ -10,7 +10,10 @@ public class Bomb : MonoBehaviour
     public SpriteRenderer gameBulletRenderer;
     private int time = 0;
     public Vector2 direction;
-    //private float angle = 30f;
+    private float impactSize = 3;
+
+    public LayerMask layerToHit;
+
 
 
     // Start is called before the first frame update
@@ -26,15 +29,14 @@ public class Bomb : MonoBehaviour
         
     }
 
-    public void Set_speed(){
+    public void Set_speed()
+    {
         Debug.Log(transform.right);
         rb.velocity = new Vector3(direction.normalized[0], direction.normalized[1], 0)*speed;
     }
     void FixedUpdate()
     {
         time += 1;
-        //Debug.Log(time);
-        //Debug.Log("fdf");
         
         if(time == 70)
         {
@@ -42,9 +44,30 @@ public class Bomb : MonoBehaviour
         }
         if(time >= 130)
         {
+            Explode();
             print("ÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ");
             Destroy(gameObject);
         }
         
     }
+    
+    void Explode()
+    {
+        print("dsddsdsadasdasda");
+        Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, impactSize, layerToHit);
+
+        foreach(Collider2D obj in objects)
+        {
+            //print(obj.gameObject.health);
+            //print(PlayerMovement.health);
+        	PlayerMovement e = obj.transform.GetComponent<PlayerMovement>();
+            print(e);
+            e.dmg();
+            print(obj);
+            print("dsdsddsdf");
+        }
+        
+        
+    }
+    
 }

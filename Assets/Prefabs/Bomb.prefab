@@ -140,3 +140,6 @@ MonoBehaviour:
   gameBullet: {fileID: 7850783943425301263}
   gameBulletRenderer: {fileID: 2436147275642889439}
   direction: {x: 0, y: 0}
+  layerToHit:
+    serializedVersion: 2
+    m_Bits: 128

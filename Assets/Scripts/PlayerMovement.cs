@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     //public CharacterController2D controller;
     //public Controller controller;
 
+    public int health = 5;
+
     public float MovementSpeed = 3;
     public float JumpeForce = 10;
     public Rigidbody2D _rigidbody;
@@ -17,8 +19,9 @@ public class PlayerMovement : MonoBehaviour
     public GameObject character;
     private List<string> animation_bools = new List<string>();
     //print("hej");
+
     public Animator anim;
-    GameObject[] playerNumbers;
+    
     /*
     animation_bools.Add("is_running");
     animation_bools.Add("is_jumping");
@@ -32,23 +35,15 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        playerNumbers = GameObject.FindGameObjectsWithTag("Player");
-        for(int i =0; i < playerNumbers.Length; i++)
-        {
-            print(playerNumbers[i]);
-            print("hej");
-        }
-        print("Öööööööö");
-
-        //anim.SetBool("is_default", false);
-        //anim.SetBool("is_running", true);
+        anim.SetBool("is_default", false);
+        anim.SetBool("is_running", true);
     }
 
     // Update is called once per frame
     void Update()
     {
         //var movement = Input.GetAxis("Horizontal");
-        anim.SetBool("is_throwing", false);
+        
         if(movement > 0.1 || movement < -0.1)
         {
             /*
@@ -57,31 +52,12 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool(animation_bools, false);
             }
             */
-            //print("oj");
+            print("oj");
             //print(anim.test);
             //anim.SetFloat("test", movement);
-
-            if (character = playerNumbers[0])
-            {
-                anim.SetBool("is_player", false);
-            }
-            else
-            {
-                anim.SetBool("is_player", true);
-            }
-
             anim.SetBool("is_default", false);
             anim.SetBool("is_running", true);
-            if (anim.GetBool("is_jumping") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
-            {
-                anim.SetBool("is_jumping", false);
-            }
-            else
-            {
-                anim.SetBool("is_jumping", true);
-            }
-
-            if (soundDelay <= 0)
+            if(soundDelay <= 0)
             {
                 Sounds_In_GameFX[1].Play();
                 soundDelay = 60;
@@ -92,10 +68,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (anim.GetBool("is_jumping") && Mathf.Abs(_rigidbody.velocity.y) > 0.001f)
-            {
-                anim.SetBool("is_jumping", false);
-            }
             anim.SetBool("is_default", true);
             anim.SetBool("is_running", false);
         }
@@ -122,9 +94,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context){
         if (Mathf.Abs(_rigidbody.velocity.y) < 0.001f){
-            anim.SetBool("is_default", false);
-            anim.SetBool("is_running", false);
-            anim.SetBool("is_jumping", true);
             _rigidbody.AddForce(new Vector2(0, JumpeForce), ForceMode2D.Impulse);
             Sounds_In_GameFX[0].Play();
         }
@@ -132,6 +101,16 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context) {
         movement = context.ReadValue<Vector2>().x;
         MabyRotate(movement);
+    }
+
+    public void dmg()
+    {
+        health -= 1;
+        print(health);   
+        if(health <= 0)
+        {
+            Destroy(character);
+        }
     }
 
 }
